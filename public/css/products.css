@@ -1,0 +1,133 @@
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    
+ }
+ 
+.navtab{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60%;
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.input_data {
+    border: none;
+    width: 500px;
+    height: 20px;
+    padding-left: 12px;
+    background-color: #f0f5ff;
+    margin-top: 30px;
+} 
+
+#searchbar{
+    background-color: #f0f5ff;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    margin: 12px;
+    margin: auto;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+#categories > div > img{
+    height: 70px;
+    width: 60px;
+    background-color: white;
+ }
+ #categories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    }
+
+.main-2{
+    height: 362px;
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);    
+} 
+
+.main-2 .row{
+    height: 100%; 
+    
+    margin: 0px;
+}
+
+.main-2 .row > div{
+    padding: 0px;
+    
+}
+
+.a_white{
+    background-color: #fff;
+}
+.main-2_c10_top{
+    height: 70px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 21px;
+    margin-bottom: 20pxs;
+}
+.cbox{
+    width: 100%;
+    height: 278px;
+    
+}
+
+
+.cbox .row .col .scroll{
+    height: 100%;
+}
+
+
+
+#main-3{
+    height: 50vh;
+    border: 1px solid red;
+}
+
+.divpic{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+ 
+    li{
+        list-style: none;
+    }
+    
+    #footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    
+    .heading{
+        color: gray;
+    }
+ 
+
