@@ -25,7 +25,7 @@ const connection = mysql.createConnection({
  // Main page
 
 app.get('/', (req, res) => {
- res.render('products.ejs',{cartRoute: '/cart'});
+ res.render('products.ejs');
    }); 
    
    
